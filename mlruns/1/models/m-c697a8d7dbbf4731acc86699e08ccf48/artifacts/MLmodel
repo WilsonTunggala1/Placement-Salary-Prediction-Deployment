@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/User/OneDrive - Bina Nusantara/Semester 4/Model Deployment/2802388075_WilsonPT_UTS/mlruns/1/models/m-c697a8d7dbbf4731acc86699e08ccf48/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.14
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-c697a8d7dbbf4731acc86699e08ccf48
+model_size_bytes: 280006
+model_uuid: m-c697a8d7dbbf4731acc86699e08ccf48
+prompts: null
+run_id: 9621f823fd7f43e4affdf2a7d24f7f73
+utc_time_created: '2026-04-23 14:05:41.716261'
